@@ -117,3 +117,7 @@ h2 {
     padding-top: 2vh;
     font-size: 3vh;
 }
+.Nav a:any-link {
+    text-decoration: none;
+    color: black;
+}
