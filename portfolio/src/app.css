@@ -18,11 +18,11 @@ h1 {
 }
 /* Styling for Project Page */
 img {
-    width: 68vw;
+    width: 70vw;
 }
 
 .fPimMH {
-    width: 73vw;
+    width: 75vw;
 }
 
 .Project {
@@ -33,14 +33,13 @@ img {
 .card {
     width: 95vw;
     border: 2px solid red;
-    padding:  1vh 1vh;
+    padding: 1vh 1vh 1vh 0;
     margin: 2vw;
     display: flex;
 }
 
 .description {
     width: 20vw;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -55,7 +54,7 @@ img {
     height: 50px;
     background-color: #1A1110;
     color: white;
-    margin: 0 15px 15px 15px;
+    margin: 15px 15px 5px 15px;
     text-align: left;
     padding-left: 25px;
     font-size: 20px;

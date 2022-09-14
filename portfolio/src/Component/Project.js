@@ -29,8 +29,8 @@ function Project() {
         <div className="description beluga">
           <h2> Yeezy Beluga Themed Store</h2>
           <div className="descriptionButtons">
-            <button> Github Repo &#x2192;</button>
-            <button> Live Link &#x2192;</button>
+            <button onClick={() => {window.open('https://raylu15742cs.github.io/Beluga-Theme-Store/', '_blank');}}> Live Link &#x2192;</button>
+            <button onClick={() => {window.open('https://github.com/raylu15742cs/Beluga-Theme-Store', '_blank');}}> Github Repo &#x2192;</button>
           </div>
         </div>
       </div>
@@ -38,8 +38,8 @@ function Project() {
         <div className="description Pokemon">
           <h2>Pokemon Memory Card</h2>
           <div className="descriptionButtons">
-            <button> Github Repo &#x2192;</button>
-            <button> Live Link &#x2192;</button>
+            <button onClick={() => {window.open('https://raylu15742cs.github.io/Pokemon-Memory-Game/', '_blank');}}> Live Link &#x2192;</button>
+            <button onClick={() => {window.open('https://github.com/raylu15742cs/Pokemon-Memory-Game', '_blank');}}> Github Repo &#x2192;</button>
           </div>
         </div>
         <Carousel class="carousel" cols={1} rows={1} loop>
@@ -69,8 +69,8 @@ function Project() {
         <div className="description battleship">
           <h2>Battleship</h2>
           <div className="descriptionButtons">
-            <button> Github Repo &#x2192;</button>
-            <button> Live Link &#x2192;</button>
+            <button onClick={() => {window.open('https://raylu15742cs.github.io/Battleship-Game/', '_blank');}}> Live Link &#x2192;</button>
+            <button onClick={() => {window.open('https://github.com/raylu15742cs/Battleship-Game', '_blank');}}> Github Repo &#x2192;</button>
           </div>
         </div>
       </div>
