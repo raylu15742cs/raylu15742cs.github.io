@@ -13,7 +13,7 @@ import pokemon3 from './img/Pokemon3.png';
 function Project() {
   return (
     <div className="Project">
-      <h1> Projects</h1>
+      <h1> PROJECTS</h1>
       <div className="belugaCarousel card">
         <Carousel class="carousel" cols={1} rows={1} loop>
           <Carousel.Item>
@@ -26,8 +26,22 @@ function Project() {
             <img src={beluga3} alt="hi" />
           </Carousel.Item>
         </Carousel>
+        <div className="description beluga">
+          <h2> Yeezy Beluga Themed Store</h2>
+          <div className="descriptionButtons">
+            <button> Github Repo &#x2192;</button>
+            <button> Live Link &#x2192;</button>
+          </div>
+        </div>
       </div>
       <div className="pokemonCarousel card">
+        <div className="description Pokemon">
+          <h2>Pokemon Memory Card</h2>
+          <div className="descriptionButtons">
+            <button> Github Repo &#x2192;</button>
+            <button> Live Link &#x2192;</button>
+          </div>
+        </div>
         <Carousel class="carousel" cols={1} rows={1} loop>
           <Carousel.Item>
             <img src={pokemon1} alt="hi" />
@@ -52,6 +66,13 @@ function Project() {
             <img src={battleship3} alt="hi" />
           </Carousel.Item>
         </Carousel>
+        <div className="description battleship">
+          <h2>Battleship</h2>
+          <div className="descriptionButtons">
+            <button> Github Repo &#x2192;</button>
+            <button> Live Link &#x2192;</button>
+          </div>
+        </div>
       </div>
     </div>
   );

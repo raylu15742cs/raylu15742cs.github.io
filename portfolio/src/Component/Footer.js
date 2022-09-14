@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div className="footer">
-            <p> Created by Raymond Lu &copy;</p>
+            <p> Created by Me &copy; Raymond Lu 2022</p>
         </div>
     )
 }
