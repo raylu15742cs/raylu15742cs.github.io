@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.939e9413.css",
-    "main.js": "/static/js/main.44179f93.js",
+    "main.css": "/static/css/main.6c839372.css",
+    "main.js": "/static/js/main.8d73e030.js",
     "static/media/beluga1.png": "/static/media/beluga1.363a9f67a522db43f342.png",
     "static/media/battleship1.jpg": "/static/media/battleship1.7e927cb7cd2305c5537f.jpg",
     "static/media/pokemon2.png": "/static/media/pokemon2.45538b3ef9e43e2d5fd7.png",
@@ -12,11 +12,11 @@
     "static/media/battleship3.png": "/static/media/battleship3.ff44bf173703f58381a2.png",
     "static/media/beluga3.png": "/static/media/beluga3.ab7ee0b4f17e29f8968c.png",
     "index.html": "/index.html",
-    "main.939e9413.css.map": "/static/css/main.939e9413.css.map",
-    "main.44179f93.js.map": "/static/js/main.44179f93.js.map"
+    "main.6c839372.css.map": "/static/css/main.6c839372.css.map",
+    "main.8d73e030.js.map": "/static/js/main.8d73e030.js.map"
   },
   "entrypoints": [
-    "static/css/main.939e9413.css",
-    "static/js/main.44179f93.js"
+    "static/css/main.6c839372.css",
+    "static/js/main.8d73e030.js"
   ]
 }
