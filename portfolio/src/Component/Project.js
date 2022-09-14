@@ -13,40 +13,46 @@ import pokemon3 from './img/Pokemon3.png';
 function Project() {
   return (
     <div className="Project">
-      <h1> Hi from Project</h1>
-      <Carousel class="carousel" cols={1} rows={1} loop>
-        <Carousel.Item>
-          <img src={beluga1} alt="hi" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={beluga2} alt="hi" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={beluga3} alt="hi" />
-        </Carousel.Item>
-      </Carousel>
-      <Carousel class="carousel" cols={1} rows={1} loop>
-        <Carousel.Item>
-          <img src={pokemon1} alt="hi" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={pokemon2} alt="hi" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={pokemon3} alt="hi" />
-        </Carousel.Item>
-      </Carousel>
-      <Carousel class="carousel" cols={1} rows={1} loop>
-        <Carousel.Item>
-          <img src={battleship1} alt="hi" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={battleship2} alt="hi" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={battleship3} alt="hi" />
-        </Carousel.Item>
-      </Carousel>
+      <h1> Projects</h1>
+      <div className="belugaCarousel card">
+        <Carousel class="carousel" cols={1} rows={1} loop>
+          <Carousel.Item>
+            <img src={beluga1} alt="hi" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={beluga2} alt="hi" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={beluga3} alt="hi" />
+          </Carousel.Item>
+        </Carousel>
+      </div>
+      <div className="pokemonCarousel card">
+        <Carousel class="carousel" cols={1} rows={1} loop>
+          <Carousel.Item>
+            <img src={pokemon1} alt="hi" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={pokemon2} alt="hi" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={pokemon3} alt="hi" />
+          </Carousel.Item>
+        </Carousel>
+      </div>
+      <div className="battleshipCarousel card">
+        <Carousel class="carousel" cols={1} rows={1} loop>
+          <Carousel.Item>
+            <img src={battleship1} alt="hi" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={battleship2} alt="hi" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={battleship3} alt="hi" />
+          </Carousel.Item>
+        </Carousel>
+      </div>
     </div>
   );
 }

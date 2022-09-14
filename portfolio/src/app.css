@@ -1,7 +1,28 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50vw;
+}
+.footer p {
+    margin : 0;
+}
+/* Styling for Project Page */
 img {
-    width: 700px;
+    height: 550px;
 }
 
 .fPimMH {
-    width: 700px;
+    width: 1000px;
+}
+
+.Project {
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid red;
+    padding:  1vh 1vh;
+    margin: 2vw;
 }
