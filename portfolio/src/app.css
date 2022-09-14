@@ -16,8 +16,31 @@ h1 {
 .footer p {
     margin : 0;
 }
+/* Styling for Nav */
+.Nav {
+    display: flex;
+    padding:  0 1vw 0 1vw;
+    width: 97vw;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.leftNav , .rightNav {
+    display: flex;
+    font-size: 1.5vh;
+    align-items: center;
+}
+.leftNav {
+    gap: 10px;
+}
+.rightNav {
+    gap: 20px;
+}
+.leftNav img {
+    max-height: 4vh;
+}
 /* Styling for Project Page */
-img {
+.Project img {
     width: 57vw;
     border: 2px solid black;
 }
@@ -27,7 +50,6 @@ img {
 }
 
 .Project {
-    padding-top: 5vh;
     text-align: center;
     display: flex;
     flex-direction: column;
