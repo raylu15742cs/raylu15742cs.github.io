@@ -50,15 +50,18 @@ function Project() {
       <div className="pokemonCarousel card">
         <div className="description Pokemon">
           <h2>Pokemon Memory Card</h2>
-          <h3>About</h3>
-          <p>Fact 1</p>
-          <p> Fact 2</p>
-          <p> Fact 3</p>
-          <h3>Technologies</h3>
-          <div className="Technologies">
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+          <div className="descriptionInside">
+            <h3>About</h3>
+            <p>This project was created to replicate that of a fully functional eccomerce store. I choose the Yeezy Beluga 350 V2 because of its history and design. This shoe was released in 2016 as the first 350 v2 with that beautiful orange stripe that makes the wearer of this piece stand out </p>
+            <h3>Creation</h3>
+            <p>Developed a React Application, that replicates all of the functionality of a themed eccomerce website. This project was built using routers, hooks, and functions components. It is published on github pages using hashrouters </p>
+            <h3>Technologies</h3>
+            <div className="Technologies">
+              <p>React</p>
+              <p>JavaScript</p>
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
           </div>
           <div className="descriptionButtons">
             <button onClick={() => {window.open('https://raylu15742cs.github.io/Pokemon-Memory-Game/', '_blank');}}> Live Link &#x2192;</button>
@@ -91,15 +94,17 @@ function Project() {
         </Carousel>
         <div className="description battleship">
           <h2>Battleship</h2>
-          <h3>About</h3>
-          <p>Fact 1</p>
-          <p> Fact 2</p>
-          <p> Fact 3</p>
-          <h3>Technologies</h3>
-          <div className="Technologies">
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+          <div className="descriptionInside">
+            <h3>About</h3>
+            <p>This project was created to replicate that of a fully functional eccomerce store. I choose the Yeezy Beluga 350 V2 because of its history and design. This shoe was released in 2016 as the first 350 v2 with that beautiful orange stripe that makes the wearer of this piece stand out </p>
+            <h3>Creation</h3>
+            <p>Developed a React Application, that replicates all of the functionality of a themed eccomerce website. This project was built using routers, hooks, and functions components. It is published on github pages using hashrouters </p>
+            <h3>Technologies</h3>
+            <div className="Technologies">
+              <p>JavaScript</p>
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
           </div>
           <div className="descriptionButtons">
             <button onClick={() => {window.open('https://raylu15742cs.github.io/Battleship-Game/', '_blank');}}> Live Link &#x2192;</button>

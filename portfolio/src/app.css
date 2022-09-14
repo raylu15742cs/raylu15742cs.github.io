@@ -18,24 +18,27 @@ h1 {
 }
 /* Styling for Project Page */
 img {
-    width: 70vw;
+    width: 57vw;
 }
 
 .fPimMH {
-    width: 75vw;
+    width: 60vw;
 }
 
 .Project {
     padding-top: 5vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
-    width: 95vw;
+    width: 80vw;
     border: 2px solid black;
     border-radius: 10px;
     padding: 1vh 1vh 1vh 0;
-    margin: 2vw;
+    margin: 2vh 2vw;
     display: flex;
 }
 
@@ -77,8 +80,13 @@ img {
 
 .descriptionInside {
     padding-top: 30px;
+    padding-left: 10px;
     display: flex;
     text-align: left;
     flex-direction: column;
     gap: 10px;
+}
+
+.Project h3 {
+    text-align: center;
 }
