@@ -19,6 +19,7 @@ h1 {
 /* Styling for Project Page */
 img {
     width: 57vw;
+    border: 2px solid black;
 }
 
 .fPimMH {
@@ -37,7 +38,7 @@ img {
     width: 80vw;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 1vh 1vh 1vh 0;
+    padding: 2vh 1vh 1vh 0;
     margin: 2vh 2vw;
     display: flex;
 }
@@ -89,4 +90,8 @@ img {
 
 .Project h3 {
     text-align: center;
+}
+h2 {
+    padding-top: 2vh;
+    font-size: 3vh;
 }
