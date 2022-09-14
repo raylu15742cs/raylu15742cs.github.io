@@ -32,7 +32,7 @@ function Project() {
             <h3>About</h3>
             <p>This project was created to replicate that of a fully functional eccomerce store. I choose the Yeezy Beluga 350 V2 because of its history and design. This shoe was released in 2016 as the first 350 v2 with that beautiful orange stripe that makes the wearer of this piece stand out </p>
             <h3>Creation</h3>
-            <p>Developed a React Application, that replicates all of the functionality of a themed eccomerce website. This project was built using routers, hooks, and functions components. It is published on github pages using hashrouters </p>
+            <p>This React application replicates all of the functionality of a themed eccomerce website. This project was built using routers, hooks, and functions components. It is published on github pages using hashrouters </p>
             <h3>Technologies</h3>
             <div className="Technologies">
               <p>React</p>
@@ -52,9 +52,9 @@ function Project() {
           <h2>Pokemon Memory Card</h2>
           <div className="descriptionInside">
             <h3>About</h3>
-            <p>This project was created to replicate that of a fully functional eccomerce store. I choose the Yeezy Beluga 350 V2 because of its history and design. This shoe was released in 2016 as the first 350 v2 with that beautiful orange stripe that makes the wearer of this piece stand out </p>
+            <p>Do you remember watching all those episodes of Pokemon, collecting cards with your friends at school, playing Pokemon on your DS? If you do, this game bring you right back down memory lane and be a piece of cake. </p>
             <h3>Creation</h3>
-            <p>Developed a React Application, that replicates all of the functionality of a themed eccomerce website. This project was built using routers, hooks, and functions components. It is published on github pages using hashrouters </p>
+            <p>This React applications allows the user to play a pokemon memory card game where they have to remember which pokemons have been selected. It is built using class components and states to maintain the score in the game. </p>
             <h3>Technologies</h3>
             <div className="Technologies">
               <p>React</p>
@@ -96,9 +96,9 @@ function Project() {
           <h2>Battleship</h2>
           <div className="descriptionInside">
             <h3>About</h3>
-            <p>This project was created to replicate that of a fully functional eccomerce store. I choose the Yeezy Beluga 350 V2 because of its history and design. This shoe was released in 2016 as the first 350 v2 with that beautiful orange stripe that makes the wearer of this piece stand out </p>
+            <p>Battleship is a strategic game between two players with the objective of the game being to sink the others battleship. In version of battleship, there is one players that competes against an "AI" to see whose battleship will survive until the end. </p>
             <h3>Creation</h3>
-            <p>Developed a React Application, that replicates all of the functionality of a themed eccomerce website. This project was built using routers, hooks, and functions components. It is published on github pages using hashrouters </p>
+            <p>This applications allows the user to play Battleship against an "AI". It uses callback functions to track the progress of the game and determine if one player has one. </p>
             <h3>Technologies</h3>
             <div className="Technologies">
               <p>JavaScript</p>
