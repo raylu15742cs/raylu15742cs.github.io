@@ -1,5 +1,6 @@
 import profile from "./img/icon.png"
 import { Link } from "react-router-dom";
+import resume from "./img/RaymondLu_Resume.pdf"
 
 function Nav() {
     return (
@@ -10,7 +11,7 @@ function Nav() {
         </div>
         <div className="rightNav">
           <Link to="/project"><p>Projects</p></Link>
-          <Link to="/experience"><p>Experience</p></Link>
+          <p><a href={resume} target="#">Resume</a></p>
         </div>
       </div>
     );
