@@ -1,4 +1,4 @@
-import profile from "./img/profile.png"
+import profile from "./img/icon.png"
 import { Link } from "react-router-dom";
 
 function Nav() {

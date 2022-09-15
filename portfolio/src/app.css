@@ -121,3 +121,27 @@ h2 {
     text-decoration: none;
     color: black;
 }
+.Home {
+    margin: 10vh 17vw;
+}
+.Home img {
+    height: 35vh;
+    background-color: #efe9e4;
+    padding: 10px;
+    border-radius: 50%;
+}
+.HomeTop {
+    display: flex;
+    gap: 1vw;
+}
+.HomeIntroduction {
+    height: 35vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomeIntroduction h3 {
+    padding-top: 2vh;
+}
