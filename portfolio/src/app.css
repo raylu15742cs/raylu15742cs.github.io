@@ -159,3 +159,15 @@ h2 {
     text-decoration: none;
     color: black;
 }
+
+h4{
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40vw;
+}
