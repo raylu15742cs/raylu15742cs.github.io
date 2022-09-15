@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.394c7817.css",
-    "main.js": "/static/js/main.f3370e21.js",
+    "main.css": "/static/css/main.68767dd5.css",
+    "main.js": "/static/js/main.cb77550d.js",
+    "static/media/profile.png": "/static/media/profile.7a0b7d9c2a4e611797bb.png",
     "static/media/beluga1.png": "/static/media/beluga1.363a9f67a522db43f342.png",
     "static/media/battleship1.jpg": "/static/media/battleship1.7e927cb7cd2305c5537f.jpg",
     "static/media/pokemon2.png": "/static/media/pokemon2.45538b3ef9e43e2d5fd7.png",
@@ -11,13 +12,13 @@
     "static/media/battleship2.png": "/static/media/battleship2.db72d7c1d634c29d5fc1.png",
     "static/media/battleship3.png": "/static/media/battleship3.ff44bf173703f58381a2.png",
     "static/media/beluga3.png": "/static/media/beluga3.ab7ee0b4f17e29f8968c.png",
-    "static/media/profile.png": "/static/media/profile.e164d657b4a1e3479bef.png",
+    "static/media/icon.png": "/static/media/icon.e164d657b4a1e3479bef.png",
     "index.html": "/index.html",
-    "main.394c7817.css.map": "/static/css/main.394c7817.css.map",
-    "main.f3370e21.js.map": "/static/js/main.f3370e21.js.map"
+    "main.68767dd5.css.map": "/static/css/main.68767dd5.css.map",
+    "main.cb77550d.js.map": "/static/js/main.cb77550d.js.map"
   },
   "entrypoints": [
-    "static/css/main.394c7817.css",
-    "static/js/main.f3370e21.js"
+    "static/css/main.68767dd5.css",
+    "static/js/main.cb77550d.js"
   ]
 }
