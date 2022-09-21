@@ -170,9 +170,9 @@ h4{
     transition: all 0.5s  ease-out
 }
 
-.Nav a:hover {
+.Nav a .links:hover{
     background-color: black;
     color: white;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 15px;
 }

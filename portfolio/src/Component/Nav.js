@@ -7,11 +7,11 @@ function Nav() {
       <div className="Nav">
         <div className="leftNav">
           <Link to="/"><img src={profile} alt="profile"></img></Link>
-          <Link to="/"><p>Raymond Lu</p></Link>
+          <Link to="/"><p className="links">Raymond Lu</p></Link>
         </div>
         <div className="rightNav">
-          <Link to="/project"><p>Projects</p></Link>
-          <p><a href={resume} target="#">Resume</a></p>
+          <Link to="/project"><p className="links">Projects</p></Link>
+          <a href={resume} target="#"><p className="links">Resume</p></a>
         </div>
       </div>
     );
