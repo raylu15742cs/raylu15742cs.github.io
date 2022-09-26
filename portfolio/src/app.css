@@ -6,17 +6,18 @@
 h1 {
     font-size: 10vh;
 }
-.footer {
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    width: 100vw;
-    background-color: white;
+
+h2 {
+    padding-top: 2vh;
+    font-size: 3vh;
 }
-.footer p {
-    margin : 0;
+
+h4{
+    font-size: 2vh;
+    font-weight: bold;
 }
-/* Styling for Nav */
+
+/* Styling for Header */ 
 .Nav {
     display: flex;
     padding:  0 1vw 0 1vw;
@@ -39,7 +40,42 @@ h1 {
 .leftNav img {
     max-height: 4vh;
 }
+
+.Nav a {
+    transition: all 0.5s  ease-out
+}
+
+.Nav a .links:hover{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.Nav a:any-link {
+    text-decoration: none;
+    color: black;
+}
+/* Styling for Footer */
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    background-color: white;
+}
+.footer p {
+    margin : 0;
+}
 /* Styling for Project Page */
+.Project {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Project img {
     width: 57vw;
     border: 2px solid black;
@@ -48,14 +84,6 @@ h1 {
 .fPimMH {
     width: 60vw;
 }
-
-.Project {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .card {
     width: 80vw;
     border: 2px solid black;
@@ -113,14 +141,8 @@ h1 {
 .Project h3 {
     text-align: center;
 }
-h2 {
-    padding-top: 2vh;
-    font-size: 3vh;
-}
-.Nav a:any-link {
-    text-decoration: none;
-    color: black;
-}
+
+/* Styling for Home Page */ 
 .HomeTop {
     margin: 17vh 17vw 2vh 17vw;
     padding-top: 5vh;
@@ -159,20 +181,4 @@ h2 {
 .HomeButtons a:any-link {
     text-decoration: none;
     color: black;
-}
-
-h4{
-    font-size: 2vh;
-    font-weight: bold;
-}
-
-.Nav a {
-    transition: all 0.5s  ease-out
-}
-
-.Nav a .links:hover{
-    background-color: black;
-    color: white;
-    padding: 15px;
-    border-radius: 15px;
 }
