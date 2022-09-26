@@ -11,6 +11,50 @@ h2 {
     padding-top: 2vh;
     font-size: 3vh;
 }
+
+h4{
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+/* Styling for Header */ 
+.Nav {
+    display: flex;
+    padding:  0 1vw 0 1vw;
+    width: 97vw;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.leftNav , .rightNav {
+    display: flex;
+    font-size: 1.5vh;
+    align-items: center;
+}
+.leftNav {
+    gap: 10px;
+}
+.rightNav {
+    gap: 20px;
+}
+.leftNav img {
+    max-height: 4vh;
+}
+
+.Nav a {
+    transition: all 0.5s  ease-out
+}
+
+.Nav a .links:hover{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.Nav a:any-link {
+    text-decoration: none;
+    color: black;
+}
 /* Styling for Footer */
 
 
@@ -23,4 +67,118 @@ h2 {
 }
 .footer p {
     margin : 0;
+}
+/* Styling for Project Page */
+.Project {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project img {
+    width: 57vw;
+    border: 2px solid black;
+}
+
+.fPimMH {
+    width: 60vw;
+}
+.card {
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2vh 1vh 1vh 0;
+    margin: 2vh 2vw;
+    display: flex;
+}
+
+.description {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionButtons {
+    margin-top: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.descriptionButtons button {
+    height: 50px;
+    background-color: #1A1110;
+    color: white;
+    margin: 15px 15px 10px 15px;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.Technologies {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.Technologies p {
+    padding-top: 10px;
+    height: 30px; 
+    min-width: 80px;
+    background-color: #efe9e4;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.descriptionInside {
+    padding-top: 30px;
+    padding-left: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Project h3 {
+    text-align: center;
+}
+
+/* Styling for Home Page */ 
+.HomeTop {
+    margin: 17vh 17vw 2vh 17vw;
+    padding-top: 5vh;
+}
+.Home img {
+    height: 35vh;
+    background-color: #efe9e4;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.HomeTop {
+    display: flex;
+    gap: 1vw;
+}
+.HomeIntroduction {
+    height: 30vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomeIntroduction h3 {
+    padding-top: 2vh;
+}
+
+.HomeButtons button {
+    margin-top: 2vh;
+    height: 60px;
+    width: 150px;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.HomeButtons a:any-link {
+    text-decoration: none;
+    color: black;
 }
