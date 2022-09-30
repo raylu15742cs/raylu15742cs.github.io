@@ -8,3 +8,8 @@ This website is a personal portfolio and it contains my best projects and curren
 ## Current Issues
 1. Not Mobile Friendly
 2. Responsiveness and overfilling
+
+
+## Future Upgrade
+1. Convert to TS
+2. Convert each image to short video of each project
